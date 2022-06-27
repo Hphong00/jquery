@@ -1,0 +1,24 @@
+/* form input */
+form {
+    background-color: white;
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+}
+.form-input {
+    text-align: center;
+    margin: 3% 10%;
+}
+/* table */
+#table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 2px solid black;
+}
+.buttontable {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}

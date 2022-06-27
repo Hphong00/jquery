@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div>
+        <form class="form">
+            <div class="form-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" /><br />
+            </div>
+            <div class="form-input">
+                <label for="bth">Birthday</label>
+                <input type="text" id="bth" name="bth" /><br/>
+            </div>
+            <div class="form-input">
+                <label for="phone">Mobile Phone</label>
+                <input type="text" id="phone" name="phone" /><br />
+            </div>
+            <div class="form-input">
+                <label for="homet">Hometown</label>
+                <input type="text" id="homet" name="homet" /><br/>
+            </div>
+            <div class="buttonform">
+                <button class="save">Save</button>
+                <button class="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+    <div class="liststudent">
+        <div class="buttontable">
+            <button class="delete">Delete</button>
+            <button class="edit">Edit</button>
+        </div>
+        <div class="tablestudent">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Full name</th>
+                        <th>Birth day</th>
+                        <th>Phone number</th>
+                        <th>Home town</th>
+                    </tr>
+                </thead>
+                <tbody id="table-data"></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="javascrips" src="jquery.js"></script>
+  </body>
+</html>
